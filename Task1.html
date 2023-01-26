@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soman Motors</title>
+</head>
+<body>
+    <style>
+        .sideMenu{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            list-style: none;
+            font-size: 20px;
+            width: 200px;
+            padding: 11px;
+            text-align: center;
+        }
+        .menu{
+            width: 100%;
+            margin-left: 25%;
+        }
+        a{
+            color: black;
+        }
+        .sideMenu li:hover{
+            background-color: gray;
+            color: white;
+        }
+        .sideMenu li{
+            padding: 10px;
+        }
+        .sidebar{
+            border-right: 2px solid;
+             width:220px;
+        }
+    </style>
+
+    <nav style="background-color:white;color:black; display: flex;">
+       <div class="logo">
+        <img src="./Logo1.jpg" width="50px" height="50px" alt="" style="padding: 10px;">
+       </div>
+
+       <div class="menu">
+        <ul style="list-style: none;display: inline-flex; gap: 30%;">
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">PROJECTS</a></li>
+            <li><a href="">CONTACTS</a></li>
+        </ul>
+       </div>
+    </nav>
+<div class="container" style="position: relative; width: 100%; height: 100vh; display: flex;">
+
+    <div class="sidebar" >
+        <ul class="sideMenu">
+           <li><a href="https://www.mercedes-benz.com/en/" target="_blank">Mercedes</a></li>
+           <li><a href="https://www.audiusa.com/" target="_blank">Audi</a></li>
+           <li><a href="https://www.bmwusa.com/" target="_blank">BMW</a></li>
+           <li><a href="https://www.suzukipakistan.com/" target="_blank">Suzuki</a></li>
+           <li><a href="https://www.honda.com.pk/" target="_blank">Honda</a></li>
+           <li><a href="https://www.ferrari.com/en-EN" target="_blank">Ferrari</a></li>
+           <li><a href="https://global.toyota/en/" target="_blank">Toyota</a></li>
+           <li><a href="https://www.bugatti.com/" target="_blank">Bugatti</a></li>
+           <li><a href="https://www.kia.com/us/en/forte?chid=sem&aud=&CID=20242760&SID=4132975&PID=204350773&AID=404161254&CRD=0" target="_blank">Kia</a></li>
+        </ul>
+       </div>
+       <div class="main" style="margin-top: 10px; margin-left: 10px; display: flex; width: 100%; padding:35px">
+        <div class="profile-pic">
+        <img src="./Logo1.jpg" width="250px"height="200px" alt="" >
+        </div>           
+        <div class="profile-info" style="margin: 10px; margin-top: 0px; gap:3%;display: flex;flex-direction: column; width: 100%;padding: 10px;">
+            <label for="name">Car Name:</label><br>
+            <label for="model">Model:</label><br>
+            <label for="Assembly">Assembly:</label><br>
+            <label for="Registration">Registration:</label><br>
+            <label for="Body color">Body Color:</label><br>
+            <label for="Mileage">Mileage:</label><br>
+            <label for="Engine Capacity">Engine Capacity:</label><br>
+            <label for="contact">Contact#:</label><br>
+            <label for="Location">Location:</label><br>
+            
+
+
+        </div>
+           
+       </div>
+</div>
+   
+
+    
+</body>
+</html>
